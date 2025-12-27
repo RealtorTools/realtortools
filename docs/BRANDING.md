@@ -314,10 +314,24 @@ Assets should be stored in each product's `/public/brand/` directory:
 
 ---
 
+## GitHub Organization
+
+All RealtorTools repositories are hosted under the **RealtorTools** GitHub organization:
+
+| Repository | Description | URL |
+|------------|-------------|-----|
+| realtortools | Umbrella branding & landing | github.com/RealtorTools/realtortools |
+| cmaforge | CMA product monorepo | github.com/RealtorTools/cmaforge |
+| listingreels | Video product monorepo | github.com/RealtorTools/listingreels |
+| listingphoto | Photo product monorepo | github.com/RealtorTools/listingphoto |
+
+---
+
 ## Contact
 
 For brand questions or asset requests:
 - **Email**: brand@realtortools.com
+- **GitHub**: github.com/RealtorTools
 - **Design System**: (Future) design.realtortools.com
 
 ---
