@@ -33,13 +33,13 @@ realtortools/                    # Umbrella repo (this repo)
 ├── CLAUDE.md                    # AI agent configuration
 └── README.md                    # Umbrella documentation
 
-products/                        # Each product has its OWN git repo
-├── cmaforge/                    # → github.com/Wal33D/cmaforge-mono
-├── listingreels/                # → github.com/Wal33D/listingreels
-└── listingphoto/                # → github.com/Wal33D/listingphoto
+products/                        # Each product has its OWN git repo (local only)
+├── cmaforge/                    # → github.com/RealtorTools/cmaforge
+├── listingreels/                # → github.com/RealtorTools/listingreels
+└── listingphoto/                # → github.com/RealtorTools/listingphoto
 ```
 
-> **Note**: Products are stored in `products/` locally for organization, but each has its own git repository. The umbrella repo (`realtortools/`) excludes `products/` via `.gitignore`.
+> **Note**: Products are standalone repositories in the RealtorTools GitHub organization. They may be organized locally in any structure, but each has its own git repository.
 
 ---
 

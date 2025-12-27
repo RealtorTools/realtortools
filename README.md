@@ -23,7 +23,7 @@ RealtorTools is the umbrella brand for a suite of AI-powered tools designed for 
 Each product maintains its own Git repository for independent development and deployment:
 
 ```
-GitHub Organization (Wal33D)
+GitHub Organization: RealtorTools
 │
 ├── realtortools            # This repo - umbrella branding & landing
 │   ├── platform/landing/   # realtortools.com marketing site
@@ -31,7 +31,7 @@ GitHub Organization (Wal33D)
 │   ├── CLAUDE.md           # AI agent configuration
 │   └── README.md           # This file
 │
-├── cmaforge-mono           # CMAForge product repo
+├── cmaforge                # CMAForge product repo
 │   ├── api/                # Express.js backend
 │   ├── app/                # React frontend (Lovable)
 │   ├── landing/            # Nuxt.js marketing site (Vercel)
@@ -50,7 +50,7 @@ GitHub Organization (Wal33D)
     └── extension/
 ```
 
-> **Note**: Products are stored locally in `products/` for organization, but each pushes to its own GitHub repo. This umbrella repo excludes `products/` via `.gitignore`.
+> **Note**: Each product is an independent repository in the RealtorTools GitHub organization.
 
 ---
 
@@ -67,7 +67,7 @@ Generate professional CMA reports in minutes. AI-powered property valuation that
 - Shareable PDF & web reports
 - Chrome extension for instant property capture
 
-**Repo**: [github.com/Wal33D/cmaforge-mono](https://github.com/Wal33D/cmaforge-mono)
+**Repo**: [github.com/RealtorTools/cmaforge](https://github.com/RealtorTools/cmaforge)
 
 ---
 
@@ -81,7 +81,7 @@ Transform property photos into stunning video tours with AI. Create scroll-stopp
 - Multi-format output (9:16, 16:9, 1:1)
 - Direct social media sharing
 
-**Repo**: [github.com/Wal33D/listingreels](https://github.com/Wal33D/listingreels)
+**Repo**: [github.com/RealtorTools/listingreels](https://github.com/RealtorTools/listingreels)
 
 ---
 
@@ -96,7 +96,7 @@ Enhance listing photos with professional AI editing. Virtual staging, sky replac
 - Object removal
 - Batch processing
 
-**Repo**: [github.com/Wal33D/listingphoto](https://github.com/Wal33D/listingphoto)
+**Repo**: [github.com/RealtorTools/listingphoto](https://github.com/RealtorTools/listingphoto)
 
 ---
 
@@ -152,11 +152,11 @@ This repo includes [`CLAUDE.md`](CLAUDE.md) for AI coding assistants with:
 
 ```bash
 # Clone the specific product repo
-git clone https://github.com/Wal33D/cmaforge-mono.git
-cd cmaforge-mono
+git clone https://github.com/RealtorTools/cmaforge.git
+cd cmaforge
 
-# Or if using the umbrella local structure
-cd products/cmaforge
+# Work in the cloned directory
+npm install
 ```
 
 Each product has its own README with detailed setup instructions.
